@@ -141,7 +141,7 @@ class UsersTests(unittest.TestCase):
         self.register('Fletcher', 'fletcher@realpython.com', 'python101', 'python101')
         response = self.register('Fletcher', 'fletcher@realpython.com', 'python101', 'python101')
         self.assertIn(
-            b'That username and/or email already exist.',
+            b'That username and/or email already0 exist.',
             response.data
         )
 
